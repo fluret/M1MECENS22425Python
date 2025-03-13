@@ -8,7 +8,7 @@ while True:
     amount = int(values[1])
     if operation == "D":
         netAmount += amount
-    elif operation == "W":
+    elif operation == "R":
         netAmount -= amount
     else:
         pass

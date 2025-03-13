@@ -5,8 +5,10 @@ def f(my_list=None):
     return my_list
 
 
-f()
-f()
-f()
-f(['foo', 'bar', 'baz'])
-f([1, 2, 3, 4, 5])
+print(f())
+print(f())
+print(f())
+print(f())
+print(f())
+print(f(['foo', 'bar', 'baz']))
+print(f([1, 2, 3, 4, 5]))
