@@ -3,6 +3,10 @@ numbers = [-2, -1, 0, 1, 2]
 # Using a lambda function
 positive_numbers = filter(lambda n: n > 0, numbers)
 print(positive_numbers)
+
+print(next(positive_numbers))
+print(next(positive_numbers))
+#print(next(positive_numbers)) #provoque une erreur car l'itérateur est épuisé
 print(list(positive_numbers))
 
 # Using a user-defined function

@@ -7,3 +7,5 @@ print(integers)
 total = reduce(lambda x, y: x + y, integers)
 #total = reduce(lambda x, y: x + y, map(int, numbers))
 print(total)
+
+print(sum([int(n) for n in numbers]))
