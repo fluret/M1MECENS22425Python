@@ -6,3 +6,5 @@ def get_price(price):
 
 
 print([get_price(price) for price in original_prices])
+
+

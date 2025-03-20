@@ -1,0 +1,1 @@
+mots = ["Pomme", "Banane", "Cerise", "Fraise", "Orange"]
