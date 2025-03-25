@@ -1,5 +1,5 @@
 from Ex9 import liste
-from Test import test
+from Ex94 import test
 
 
 def carre(ligne):
